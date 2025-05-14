@@ -1,0 +1,154 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+.labelSize {
+    font-size: 100px;
+}
+
+.scrollPane {
+    border-radius: 10px black;
+}
+
+
+.label2 {
+    -fx-font-size: 50px;
+}
+
+
+.mainAnchor {
+    -fx-background-color:#d2f3f4 ;
+}
+
+.btnTerrain {
+
+    -fx-background-color: #a8e6e3;
+}
+
+.btnTerrain:hover {
+-fx-transition: transform 0.3s ease;
+        -fx-scale-x: 1.1;
+        -fx-scale-y: 1.1;
+}
+.lblStart {
+    -fx-color: #009bc2;
+    -fx-font-family: "Josefin Sans", sans-serif;
+}
+
+.btnPlay {
+      -fx-background-color: gray;
+
+}
+
+.anchorStart{
+    -fx-background-color: #d2f3f4;
+
+
+}
+
+.btnStart{
+        -fx-background-color: #a8e6e3;
+        -fx-border: 6px;
+        -fx-border-radius: 3px;
+        -fx-font-family: "Josefin Sans", sans-serif;
+}
+
+.btnStart:hover {
+ -fx-border-color: #009bc2;
+ -fx-border-width: 2px;
+ -fx-border-radius: 3px;
+}
+
+.txtStart {
+    -fx-font-family: "Josefin Sans", sans-serif;
+    -fx-color: #009bc2;
+}
+.anchorLeft{
+    -fx-background-color: #a8e6e3;
+
+}
+
+.scrolls .thumb {
+    -fx-background-color: #6da7b5;
+    -fx-background-insets: 0;
+    -fx-background-radius: 4px;
+}
+
+.scroll-bar:vertical {
+    -fx-pref-width: 8px;
+}
+.scroll-bar:horizontal {
+    -fx-pref-height: 8px;
+}
+
+.scrolls .track {
+    -fx-background-color: #bfe2e3;
+    -fx-background-radius: 2px;
+}
+
+.anchorSnack{
+    -fx-background-color:#edfcfc;
+}
+
+.anchorB {
+    -fx-background-color: #00b0e0;
+}
+
+.anchorRight {
+    -fx-background-color: #d2f3f4;
+}
+
+.lblMap {
+    -fx-font-family: "Josefin Sans", sans-serif;
+}
+
+.btnContinue {
+      -fx-background-color: #a8e6e3;
+      -fx-border: 6px;
+      -fx-font-size: 21px;
+      -fx-border-radius: 3px;
+      -fx-font-family: "Josefin Sans", sans-serif;
+}
+
+.btnContinue:hover {
+    -fx-border-color: #009bc2;
+    -fx-font-size: 21px;
+    -fx-border-width: 2px;
+}
+
+.txtElements {
+   -fx-font-family: "Josefin Sans", sans-serif;
+       -fx-color: #009bc2;
+}
+
+.txtName {
+   -fx-font-family: "Josefin Sans", sans-serif;
+    -fx-color: #009bc2;
+    -fx-margin: center;
+}
+
+.scrollGrid {
+    -fx-border: .7px;
+    -fx-border-color: #009bc2;
+}
+
+.btnConfig {
+      -fx-background-color: #a8e6e3;
+      -fx-border: 6px;
+      -fx-border-radius: 3px 3px;
+      -fx-font-family: "Josefin Sans", sans-serif;
+}
+
+.btnConfig:hover {
+    -fx-border-color: #009bc2;
+    -fx-border-width: 1.5px;
+}
+
+.anchorBoth {
+    -fx-background-color: #edffff;
+}
+
+.barApp {
+-fx-font-size: 12px;
+-fx-font-family: "Josefin Sans", sans-serif;
+    -fx-background-color: #bae0e0;
+}

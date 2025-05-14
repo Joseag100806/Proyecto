@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="469.0" prefWidth="726.0" styleClass="anchorStart" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.FormMap">
+   <children>
+      <Text fill="#009bc2" layoutX="226.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="txtStart" text="Ingresa el nombre de tu mapa">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="fielName" layoutX="273.0" layoutY="76.0" prefHeight="26.0" prefWidth="179.0" />
+      <TextField fx:id="txtRow" layoutX="230.0" layoutY="246.0" prefHeight="40.0" prefWidth="60.0" />
+      <TextField fx:id="txtColumn" layoutX="433.0" layoutY="246.0" prefHeight="40.0" prefWidth="60.0" />
+      <Text layoutX="171.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fill="#009bc2" layoutX="419.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="lblStart" text="Columnas">
+         <font>
+            <Font size="20.0" />
+         </font></Text>
+      <Text fill="#009bc2" layoutX="274.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="txtStart" text="Ingresa número de: ">
+         <font>
+            <Font size="20.0" />
+         </font></Text>
+      <Text fill="#009bc2" layoutX="238.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="lblStart" text="Filas">
+         <font>
+            <Font size="20.0" />
+         </font></Text>
+      <Button layoutX="289.0" layoutY="360.0" mnemonicParsing="false" onAction="#rescueInformation" prefHeight="47.0" prefWidth="147.0" styleClass="btnContinue" text="Continuar" textFill="#009bc2">
+         <font>
+            <Font size="21.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="759.0" prefWidth="1258.0" styleClass="mainAnchor" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.EditorMapaController">
+   <top>
+      <MenuBar prefHeight="0.0" prefWidth="1027.0" styleClass="barApp" BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+   <left>
+      <ScrollPane fx:id="scrollPein" prefHeight="731.0" prefWidth="174.0" BorderPane.alignment="CENTER">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1500.0" prefWidth="200.0" styleClass="anchorLeft">
+               <children>
+                  <Button fx:id="btnAgua" layoutX="44.0" layoutY="930.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" styleClass="btnTerrain">
+                     <graphic>
+                        <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" styleClass="imgTerrain">
+                           <image>
+                              <Image url="@img/agua.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></Button>
+                  <Button fx:id="btnTierra" layoutX="44.0" layoutY="570.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" styleClass="btnTerrain">
+                     <graphic>
+                        <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" styleClass="imgTerrain">
+                           <image>
+                              <Image url="@img/tierra.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></Button>
+                  <Button fx:id="btnPasto" layoutX="44.0" layoutY="30.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" styleClass="btnTerrain">
+                     <graphic>
+                        <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" styleClass="imgTerrain">
+                           <image>
+                              <Image url="@img/pasto.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btnPasto2" layoutX="44.0" layoutY="90.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" styleClass="btnTerrain">
+                     <graphic>
+                        <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" styleClass="imgTerrain">
+                           <image>
+                              <Image url="@img/pasto2.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btnOro" layoutX="44.0" layoutY="990.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" styleClass="btnTerrain">
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" styleClass="imgTerrain">
+                           <image>
+                              <Image url="@img/oro.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btnPasto3" layoutX="44.0" layoutY="210.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" styleClass="btnTerrain">
+                     <graphic>
+                        <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" styleClass="imgTerrain">
+                           <image>
+                              <Image url="@img/pasto3.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btnPasto4" layoutX="44.0" layoutY="150.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" styleClass="btnTerrain">
+                     <graphic>
+                        <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" styleClass="imgTerrain">
+                           <image>
+                              <Image url="@img/pasto4.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btnPasto5" layoutX="44.0" layoutY="270.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" styleClass="btnTerrain">
+                     <graphic>
+                        <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" styleClass="imgTerrain">
+                           <image>
+                              <Image url="@img/pasto5.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btnPasto6" layoutX="44.0" layoutY="390.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" styleClass="btnTerrain">
+                     <graphic>
+                        <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" styleClass="imgTerrain">
+                           <image>
+                              <Image url="@img/pasto6.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btnPasto7" layoutX="44.0" layoutY="510.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" styleClass="btnTerrain">
+                     <graphic>
+                        <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" styleClass="imgTerrain">
+                           <image>
+                              <Image url="@img/pasto7.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btnPasto8" layoutX="44.0" layoutY="450.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" styleClass="btnTerrain">
+                     <graphic>
+                        <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" styleClass="imgTerrain">
+                           <image>
+                              <Image url="@img/pasto8.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btnPasto9" layoutX="44.0" layoutY="330.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" styleClass="btnTerrain">
+                     <graphic>
+                        <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" styleClass="imgTerrain">
+                           <image>
+                              <Image url="@img/pasto9.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btnTierra2" layoutX="44.0" layoutY="630.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" styleClass="btnTerrain">
+                     <graphic>
+                        <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" styleClass="imgTerrain">
+                           <image>
+                              <Image url="@img/tierra2.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btnTierra3" layoutX="44.0" layoutY="690.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" styleClass="btnTerrain">
+                     <graphic>
+                        <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" styleClass="imgTerrain">
+                           <image>
+                              <Image url="@img/tierra3.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btnTierra4" layoutX="44.0" layoutY="750.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" styleClass="btnTerrain">
+                     <graphic>
+                        <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" styleClass="imgTerrain">
+                           <image>
+                              <Image url="@img/tierra4.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btnTierra5" layoutX="44.0" layoutY="810.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" styleClass="btnTerrain">
+                     <graphic>
+                        <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" styleClass="imgTerrain">
+                           <image>
+                              <Image url="@img/tierra5.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btnTierra6" layoutX="44.0" layoutY="870.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" styleClass="btnTerrain">
+                     <graphic>
+                        <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" styleClass="imgTerrain">
+                           <image>
+                              <Image url="@img/tierra6.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btnArbol" layoutX="44.0" layoutY="1050.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" styleClass="btnTerrain">
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" styleClass="imgTerrain">
+                           <image>
+                              <Image url="@img/arbol.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btnLetrero" layoutX="44.0" layoutY="1110.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" styleClass="btnTerrain">
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" styleClass="imgTerrain">
+                           <image>
+                              <Image url="@img/letrero.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btnFlor" layoutX="44.0" layoutY="1170.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" styleClass="btnTerrain">
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" styleClass="imgTerrain">
+                           <image>
+                              <Image url="@img/flor.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btnFlor2" layoutX="44.0" layoutY="1230.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" styleClass="btnTerrain">
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" styleClass="imgTerrain">
+                           <image>
+                              <Image url="@img/flor2.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </AnchorPane>
+        </content>
+         <styleClass>
+            <String fx:value="anchorLeft" />
+            <String fx:value="scrolls" />
+         </styleClass>
+      </ScrollPane>
+   </left>
+   <center>
+      <ScrollPane fitToHeight="true" fitToWidth="true" pannable="true" prefHeight="605.0" prefWidth="837.0" styleClass="scrolls" BorderPane.alignment="CENTER">
+          <StackPane alignment="CENTER" prefHeight="603.0" prefWidth="858.0" styleClass="anchorSnack">
+            <GridPane fx:id="gridMapa" alignment="CENTER" gridLinesVisible="true" prefHeight="537.0" prefWidth="726.0">
+            </GridPane>
+          </StackPane>
+      </ScrollPane>
+   </center>
+   <right>
+      <AnchorPane prefHeight="537.0" prefWidth="192.0" styleClass="anchorRight" BorderPane.alignment="CENTER">
+         <children>
+            <AnchorPane fx:id="miniMapaPane" layoutX="9.0" layoutY="90.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.leftAnchor="9.0" AnchorPane.rightAnchor="12.599999999999994" AnchorPane.topAnchor="90.0" />
+            <Button fx:id="btnDelete" layoutX="1.0" layoutY="437.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" styleClass="btnConfig">
+               <graphic>
+                  <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/delete.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button layoutX="1.0" layoutY="471.0" mnemonicParsing="false" onAction="#zoomIn" prefHeight="30.0" prefWidth="30.0" styleClass="btnConfig">
+               <graphic>
+                  <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/add.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button layoutX="1.0" layoutY="506.0" minHeight="30.0" mnemonicParsing="false" onAction="#zoomOut" prefHeight="30.0" prefWidth="30.0" styleClass="btnConfig">
+               <graphic>
+                  <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/substract.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <AnchorPane layoutX="-4.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="90.0" prefWidth="200.0">
+               <children>
+                  <Label fx:id="txtName" alignment="CENTER" contentDisplay="CENTER" layoutX="30.0" prefHeight="66.0" prefWidth="140.0" styleClass="txtName" textOverrun="CLIP">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </right>
+   <bottom>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <AnchorPane prefHeight="200.0" prefWidth="1057.0">
+               <children>
+                  <ScrollPane fx:id="scrollElements" layoutX="14.0" layoutY="58.0" prefHeight="119.0" prefWidth="988.0" styleClass="scrolls">
+                     <content>
+                        <StackPane prefHeight="150.0" prefWidth="972.0">
+                           <children>
+                              <GridPane fx:id="gridElements" alignment="CENTER" gridLinesVisible="true" prefHeight="537.0" prefWidth="726.0" />
+                           </children>
+                        </StackPane>
+                     </content>
+                  </ScrollPane>
+                  <Text fill="#0b0b0b" layoutX="14.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="txtElements" text="Elementos agregados" wrappingWidth="437.3460388183594">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="1055.0" prefHeight="200.0" prefWidth="203.0">
+               <children>
+                  <Button layoutX="14.0" layoutY="77.0" mnemonicParsing="false" onAction="#guardarMapa" prefHeight="68.0" prefWidth="166.0" styleClass="btnContinue" text="Guardar">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </bottom>
+</BorderPane>
